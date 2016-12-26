@@ -27,6 +27,7 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-plus:9.2.10.v20150310" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-webapp:9.2.10.v20150310" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-xml:9.2.10.v20150310" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:9.2.10.v20150310" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-servlet:9.2.10.v20150310" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-security:9.2.10.v20150310" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-server:9.2.10.v20150310" level="project" />
@@ -34,7 +35,6 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-http:9.2.10.v20150310" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:9.2.10.v20150310" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-jndi:9.2.10.v20150310" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:9.2.10.v20150310" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.7" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.7" level="project" />
