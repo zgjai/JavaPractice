@@ -5,6 +5,18 @@
     <groupId>practice</groupId>
     <artifactId>guijiang.zhang</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <packaging>jar</packaging>
 
     <name>guijiang.zhang</name>
@@ -189,43 +201,41 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
         </dependency>
-        <!-- common log
-        <dependency>
+        <!-- common log-->
+        <!--<dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-jcl</artifactId>
-        </dependency>
-        -->
+        </dependency>-->
 
-        <!-- jdk log
-        <dependency>
+         <!--jdk log-->
+        <!--<dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-jdk14</artifactId>
-        </dependency>
-        -->
+        </dependency>-->
 
-        <!-- nop log
-        <dependency>
+         <!--nop log-->
+        <!--<dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-nop</artifactId>
-        </dependency>
-        -->
+        </dependency>-->
 
-        <!-- simple log
+         <!--simple log-->
+<!--
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
         </dependency>
-        -->
+-->
 
         <!-- logbback-->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>com.h2database</groupId>
