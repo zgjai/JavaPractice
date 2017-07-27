@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed4a03dd-16dd-4a17-9a6a-0a2fd60e0d2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DataStructure/ArrayListOwn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DataStructure/IteratorOwn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DataStructure/ListOwn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Kafka/HashPartitioner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/Volatile/VolatilePerformance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicIntegerTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Practice_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Practice_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicIntegerArrayTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicReferenceFieldUpdaterTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicReferenceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practice.iml" afterPath="$PROJECT_DIR$/Practice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Kafka/DemoConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/Kafka/DemoConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Kafka/DemoProducer.java" afterPath="$PROJECT_DIR$/src/main/java/Kafka/DemoProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java" afterPath="$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AtomicIntegerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicIntegerTest.java">
+      <file leaf-file-name="AtomicReferenceFieldUpdaterTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicReferenceFieldUpdaterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="363">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,8 +59,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/practice/VolatileTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/practice/Volatile/VolatilePerformance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicIntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicIntegerArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicReferenceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicReferenceFieldUpdaterTest.java" />
       </list>
     </option>
   </component>
@@ -142,7 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,11 +252,41 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atomicPractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guijiang.zhang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaPractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,27 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AtomicIntegerTest">
-    <configuration default="false" name="VolatilePerformance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="practice.Volatile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="practice.Volatile.VolatilePerformance" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="guijiang.zhang" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.AtomicReferenceFieldUpdaterTest">
     <configuration default="false" name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -338,6 +336,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="practice.atomicPractice.AtomicIntegerTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="guijiang.zhang" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AtomicIntegerArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="practice.atomicPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="practice.atomicPractice.AtomicIntegerArrayTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="guijiang.zhang" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="practice.atomicPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="practice.atomicPractice.AtomicReferenceTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="guijiang.zhang" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AtomicReferenceFieldUpdaterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="practice.atomicPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="practice.atomicPractice.AtomicReferenceFieldUpdaterTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -780,16 +838,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.VolatilePerformance" />
-      <item index="1" class="java.lang.String" itemvalue="Application.VolatileTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AtomicIntegerTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.VolatileTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AtomicIntegerTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AtomicIntegerArrayTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AtomicReferenceTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AtomicReferenceFieldUpdaterTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.AtomicIntegerTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.VolatileTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.VolatilePerformance" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.AtomicReferenceFieldUpdaterTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AtomicReferenceTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.VolatileTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AtomicIntegerArrayTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AtomicIntegerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -810,12 +872,21 @@
       <workItem from="1500598518553" duration="1979000" />
       <workItem from="1500710449140" duration="6293000" />
       <workItem from="1500887858323" duration="1352000" />
-      <workItem from="1500961813257" duration="4391000" />
+      <workItem from="1500961813257" duration="11864000" />
+      <workItem from="1501118433322" duration="5435000" />
     </task>
+    <task id="LOCAL-00001" summary="atomic">
+      <created>1500987081754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500987081754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16303000" />
+    <option name="totallyTimeSpent" value="29211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -857,6 +928,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="atomic" />
+    <option name="LAST_COMMIT_MESSAGE" value="atomic" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -870,13 +945,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <marker date="1501045794000" expanded="true" signature="35:173" ph="..." />
+            <marker date="1501045794000" expanded="true" signature="175:224" ph="/**...*/" />
+            <marker date="1501045794000" expanded="true" signature="398:951" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="988:1217" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="1370:1495" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
-            <marker date="1500888612000" expanded="true" signature="35:84" ph="..." />
-            <marker date="1500888612000" expanded="true" signature="86:135" ph="/**...*/" />
-            <marker date="1500888612000" expanded="true" signature="311:872" ph="{...}" />
-            <marker date="1500888612000" expanded="true" signature="909:1019" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="35:173" ph="..." />
+            <marker date="1501045794000" expanded="true" signature="175:224" ph="/**...*/" />
+            <marker date="1501045794000" expanded="true" signature="398:951" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="988:1217" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="1370:1495" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -886,10 +976,11 @@
         <state relative-caret-position="924">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1500888612000" expanded="true" signature="35:84" ph="..." />
-            <marker date="1500888612000" expanded="true" signature="86:135" ph="/**...*/" />
-            <marker date="1500888612000" expanded="true" signature="311:872" ph="{...}" />
-            <marker date="1500888612000" expanded="true" signature="909:1019" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="35:173" ph="..." />
+            <marker date="1501045794000" expanded="true" signature="175:224" ph="/**...*/" />
+            <marker date="1501045794000" expanded="true" signature="398:951" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="988:1217" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="1370:1495" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -906,10 +997,11 @@
         <state relative-caret-position="627">
           <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
-            <marker date="1500888612000" expanded="true" signature="35:84" ph="..." />
-            <marker date="1500888612000" expanded="true" signature="86:135" ph="/**...*/" />
-            <marker date="1500888612000" expanded="true" signature="311:872" ph="{...}" />
-            <marker date="1500888612000" expanded="true" signature="909:1019" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="35:173" ph="..." />
+            <marker date="1501045794000" expanded="true" signature="175:224" ph="/**...*/" />
+            <marker date="1501045794000" expanded="true" signature="398:951" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="988:1217" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="1370:1495" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -919,10 +1011,11 @@
         <state relative-caret-position="1023">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <marker date="1500888612000" expanded="true" signature="35:84" ph="..." />
-            <marker date="1500888612000" expanded="true" signature="86:135" ph="/**...*/" />
-            <marker date="1500888612000" expanded="true" signature="311:872" ph="{...}" />
-            <marker date="1500888612000" expanded="true" signature="909:1019" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="35:173" ph="..." />
+            <marker date="1501045794000" expanded="true" signature="175:224" ph="/**...*/" />
+            <marker date="1501045794000" expanded="true" signature="398:951" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="988:1217" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="1370:1495" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -932,10 +1025,11 @@
         <state relative-caret-position="561">
           <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
-            <marker date="1500888612000" expanded="true" signature="35:84" ph="..." />
-            <marker date="1500888612000" expanded="true" signature="86:135" ph="/**...*/" />
-            <marker date="1500888612000" expanded="true" signature="311:872" ph="{...}" />
-            <marker date="1500888612000" expanded="true" signature="909:1019" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="35:173" ph="..." />
+            <marker date="1501045794000" expanded="true" signature="175:224" ph="/**...*/" />
+            <marker date="1501045794000" expanded="true" signature="398:951" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="988:1217" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="1370:1495" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -945,10 +1039,11 @@
         <state relative-caret-position="528">
           <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           <folding>
-            <marker date="1500888612000" expanded="true" signature="35:84" ph="..." />
-            <marker date="1500888612000" expanded="true" signature="86:135" ph="/**...*/" />
-            <marker date="1500888612000" expanded="true" signature="311:872" ph="{...}" />
-            <marker date="1500888612000" expanded="true" signature="909:1019" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="35:173" ph="..." />
+            <marker date="1501045794000" expanded="true" signature="175:224" ph="/**...*/" />
+            <marker date="1501045794000" expanded="true" signature="398:951" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="988:1217" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="1370:1495" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -971,19 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <marker date="1500888612000" expanded="true" signature="35:84" ph="..." />
-            <marker date="1500888612000" expanded="true" signature="86:135" ph="/**...*/" />
-            <marker date="1500888612000" expanded="true" signature="311:872" ph="{...}" />
-            <marker date="1500888612000" expanded="true" signature="909:1019" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,81 +1263,177 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="108" column="22" lean-forward="false" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-          <folding>
-            <marker date="1481605182000" expanded="false" signature="0:345" ph="/.../" />
-            <marker date="1481605182000" expanded="false" signature="391:496" ph="..." />
-            <marker date="1481605182000" expanded="true" signature="498:1036" ph="/**...*/" />
-            <marker date="1481605182000" expanded="true" signature="1358:1551" ph="{...}" />
-            <marker date="1481605182000" expanded="true" signature="1590:1718" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="1761:1772" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="1793:1799" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="1805:1881" ph="/**...*/" />
-            <marker date="1481605182000" expanded="true" signature="1909:1916" ph="{...}" />
-            <marker date="1481605182000" expanded="true" signature="1922:2004" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="2031:2042" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="2055:2061" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="2067:2154" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="2194:2205" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="2222:2228" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="2234:2350" ph="/**...*/" />
-            <marker date="1481605182000" expanded="true" signature="2394:2405" ph=" { " />
-            <marker date="1481605182000" expanded="true" signature="2455:2461" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="2467:2625" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="2670:2681" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="2737:2743" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="2749:3093" ph="/**...*/" />
-            <marker date="1481605182000" expanded="true" signature="3157:3240" ph="{...}" />
-            <marker date="1481605182000" expanded="true" signature="3246:3717" ph="/**...*/" />
-            <marker date="1481605182000" expanded="true" signature="3785:3868" ph="{...}" />
-            <marker date="1481605182000" expanded="true" signature="3874:3981" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="4020:4031" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="4080:4086" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="4092:4199" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="4238:4249" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="4299:4305" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="4311:4461" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="4503:4514" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="4567:4573" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="4579:4685" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="4724:4735" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="4788:4794" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="4800:4906" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="4945:4956" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="5010:5016" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="5022:5171" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="5213:5224" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="5285:5291" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="5297:5697" ph="/**...*/" />
-            <marker date="1481605182000" expanded="true" signature="5765:5954" ph="{...}" />
-            <marker date="1481605182000" expanded="true" signature="5960:6358" ph="/**...*/" />
-            <marker date="1481605182000" expanded="true" signature="6426:6615" ph="{...}" />
-            <marker date="1481605182000" expanded="true" signature="6621:7245" ph="/**...*/" />
-            <marker date="1481605182000" expanded="true" signature="7368:7565" ph="{...}" />
-            <marker date="1481605182000" expanded="true" signature="7571:8193" ph="/**...*/" />
-            <marker date="1481605182000" expanded="true" signature="8316:8513" ph="{...}" />
-            <marker date="1481605182000" expanded="true" signature="8519:8655" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="8684:8695" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="8726:8732" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="8738:8823" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="8849:8860" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="8873:8879" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="8885:9064" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="9092:9103" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="9122:9128" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="9134:9314" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="9344:9355" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="9375:9381" ph=" }" />
-            <marker date="1481605182000" expanded="true" signature="9387:9568" ph="/**...*/" />
-            <marker date="1481605182000" expanded="false" signature="9600:9611" ph=" { " />
-            <marker date="1481605182000" expanded="false" signature="9632:9638" ph=" }" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicIntegerArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicIntegerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <marker date="1500969016000" expanded="true" signature="85:134" ph="/**...*/" />
+            <marker date="1500969016000" expanded="true" signature="284:702" ph="{...}" />
+            <marker date="1500969016000" expanded="true" signature="756:956" ph="{...}" />
+            <marker date="1500969016000" expanded="true" signature="1006:1188" ph="{...}" />
+            <marker date="1500969016000" expanded="true" signature="1227:1352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <marker date="1501045794000" expanded="true" signature="35:173" ph="..." />
+            <marker date="1501045794000" expanded="true" signature="175:224" ph="/**...*/" />
+            <marker date="1501045794000" expanded="true" signature="398:951" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="988:1217" ph="{...}" />
+            <marker date="1501045794000" expanded="true" signature="1370:1495" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="114" column="25" lean-forward="false" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+          <folding>
+            <marker date="1481605182000" expanded="false" signature="0:345" ph="/.../" />
+            <marker date="1481605182000" expanded="false" signature="391:490" ph="..." />
+            <marker date="1481605182000" expanded="true" signature="492:778" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="1034:1229" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="1266:1396" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="1439:1450" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="1471:1477" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="1483:1556" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="1586:1593" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="1599:1681" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="1706:1717" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="1730:1736" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="1742:1829" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="1867:1878" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="1895:1901" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="1907:2023" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="2065:2076" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="2129:2135" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="2141:2478" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="2538:2624" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="2630:3101" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="3165:3251" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="3257:3415" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="3420:3450" ph="/unchecked/" />
+            <marker date="1481605182000" expanded="false" signature="3491:3502" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="3564:3570" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="3576:3976" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="4042:4224" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="4230:4628" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="4694:4876" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="4882:5506" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="5623:5813" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="5819:6441" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="6558:6748" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="6754:6890" ph="/**...*/" />
+            <marker date="1481605182000" expanded="false" signature="6919:6930" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="6959:6965" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <marker date="1501122133000" expanded="true" signature="87:136" ph="/**...*/" />
+            <marker date="1501122133000" expanded="true" signature="305:712" ph="{...}" />
+            <marker date="1501122133000" expanded="true" signature="766:1080" ph="{...}" />
+            <marker date="1501122133000" expanded="true" signature="1112:1723" ph="{...}" />
+            <marker date="1501122133000" expanded="true" signature="1212:1281" ph="{...}" />
+            <marker date="1501122133000" expanded="false" signature="1314:1329" ph=" { " />
+            <marker date="1501122133000" expanded="false" signature="1341:1351" ph=" }" />
+            <marker date="1501122133000" expanded="false" signature="1393:1408" ph=" { " />
+            <marker date="1501122133000" expanded="false" signature="1425:1435" ph=" }" />
+            <marker date="1501122133000" expanded="false" signature="1464:1479" ph=" { " />
+            <marker date="1501122133000" expanded="false" signature="1490:1500" ph=" }" />
+            <marker date="1501122133000" expanded="false" signature="1537:1552" ph=" { " />
+            <marker date="1501122133000" expanded="false" signature="1567:1577" ph=" }" />
+            <marker date="1501122133000" expanded="false" signature="1629:1644" ph=" { " />
+            <marker date="1501122133000" expanded="false" signature="1707:1717" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicReferenceFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="347" column="0" lean-forward="false" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+          <folding>
+            <marker date="1481605182000" expanded="false" signature="0:345" ph="/.../" />
+            <marker date="1481605182000" expanded="false" signature="392:762" ph="..." />
+            <marker date="1481605182000" expanded="true" signature="764:2223" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="2286:3143" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="3421:3554" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="3560:3634" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="3679:3686" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="3692:4245" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="4321:5091" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="5171:5502" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="5557:5789" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="5848:6046" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="6086:6360" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="6403:6544" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="6550:7041" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="7114:7304" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="7310:7799" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="7872:8062" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="8068:8783" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="8907:9105" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="9111:9824" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="9948:10146" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="10265:17528" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="10388:10507" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="10555:10585" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="10633:10656" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="11533:13917" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="11770:11963" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="11843:11941" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="13067:13557" ph="//..." />
+            <marker date="1481605182000" expanded="true" signature="13927:14130" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="14212:14465" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="14475:14593" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="14673:14840" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="14901:15054" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="15064:15179" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="15226:15326" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="15336:15469" ph="/**...*/" />
+            <marker date="1481605182000" expanded="true" signature="15530:16029" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="16074:16167" ph="{...}" />
+            <marker date="1481605182000" expanded="false" signature="16199:16214" ph=" { " />
+            <marker date="1481605182000" expanded="false" signature="16245:16255" ph=" }" />
+            <marker date="1481605182000" expanded="true" signature="16327:16472" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="16548:16751" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="16802:16933" ph="{...}" />
+            <marker date="1481605182000" expanded="true" signature="16988:17118" ph="{...}" />
+            <marker date="1481605182000" expanded="false" signature="17128:17158" ph="/unchecked/" />
+            <marker date="1481605182000" expanded="true" signature="17193:17290" ph="{...}" />
+            <marker date="1481605182000" expanded="false" signature="17300:17330" ph="/unchecked/" />
+            <marker date="1481605182000" expanded="true" signature="17383:17522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/atomicPractice/AtomicReferenceFieldUpdaterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>

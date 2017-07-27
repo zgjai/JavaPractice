@@ -1,7 +1,11 @@
 package practice.Volatile;
 
+import com.google.common.collect.Lists;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.List;
+import java.util.Vector;
 
 /**
  * Created by zhangguijiang on 2017/7/11.
@@ -9,7 +13,7 @@ import org.slf4j.LoggerFactory;
 public class VolatileTest {
 
     private static int unsafeNum = 0;
-    //private static volatile int safeNum = 0;
+    private static volatile int safeNum = 0;
 
     public static void main(String[] args) throws Exception {
         Thread thread1 = new Thread(VolatileTest::increase);
@@ -20,18 +24,31 @@ public class VolatileTest {
         thread2.start();
         thread3.start();
         thread4.start();
-        thread1.join(50);
-        thread2.join(50);
-        thread3.join(50);
-        thread4.join(50);
-        //System.out.println("safeNum:" + safeNum);
-        System.out.println("unsafeNum:" + unsafeNum);
+        thread1.join();
+        thread2.join();
+        thread3.join();
+        thread4.join();
+        System.out.println("safeNum: " + safeNum);
+        System.out.println("unsafeNum: " + unsafeNum);
     }
 
     private static void increase() {
-        for (int i = 0; i < 100000; i++) {
-            //safeNum++;
-            unsafeNum++;
+        for (int i = 0; i < 10000; i++) {
+            int tmpUnsafe = unsafeNum + 1;
+            int tmpSafe = safeNum + 1;
+            sleep(1);
+            safeNum = tmpSafe;
+            unsafeNum = tmpUnsafe;
+        }
+    }
+
+     // private static void increase() { for (int i = 0; i < 10000; i++) { unsafeNum++; safeNum++; sleep(1); } }
+
+    private static void sleep(int m) {
+        try {
+            Thread.sleep(m);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
