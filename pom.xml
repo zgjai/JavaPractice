@@ -184,6 +184,12 @@
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-log4j12</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -197,45 +203,31 @@
             <artifactId>jetty-plus</artifactId>
         </dependency>
 
+        <!-- log -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
         </dependency>
-        <!-- common log-->
-        <!--<dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-jcl</artifactId>
-        </dependency>-->
-
-         <!--jdk log-->
-        <!--<dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-jdk14</artifactId>
-        </dependency>-->
-
-         <!--nop log-->
-        <!--<dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-nop</artifactId>
-        </dependency>-->
-
-         <!--simple log-->
-<!--
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
+            <artifactId>jcl-over-slf4j</artifactId>
         </dependency>
--->
-
-        <!-- logbback-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>log4j-over-slf4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jul-to-slf4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
         </dependency>
-        <!--<dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-        </dependency>-->
 
         <dependency>
             <groupId>com.h2database</groupId>
