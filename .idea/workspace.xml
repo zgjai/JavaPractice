@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed4a03dd-16dd-4a17-9a6a-0a2fd60e0d2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/DeleteNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/InsertionSortList147.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicates82.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicates83.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveElements203.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveNthNode19.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/example.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/ConcurrentPackageRead/CyclicBarrierTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/lockPractice/ArrayBuffer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/lockPractice/LockTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/lockPractice/Mutex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/lockPractice/ReentrantLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/lockPractice/ReentrantReadWriteLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/lockPractice/StampedLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/lockPractice/SynchronizedTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/practice/lockPractice/TwinsLock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/ReverseLinkedList206.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/SortList148.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +17,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InsertionSortList147.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/InsertionSortList147.java">
+      <file leaf-file-name="ReverseLinkedList206.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/ReverseLinkedList206.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="165">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
+                <marker date="1506341718000" expanded="false" signature="333:348" ph=" { " />
+                <marker date="1506341718000" expanded="false" signature="356:366" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -110,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicates83.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicates82.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/InsertionSortList147.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/SortList148.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/ReverseLinkedList206.java" />
       </list>
     </option>
   </component>
@@ -177,8 +164,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,6 +288,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -925,7 +912,9 @@
       <workItem from="1505188953985" duration="7317000" />
       <workItem from="1505278747088" duration="7618000" />
       <workItem from="1505359781523" duration="663000" />
-      <workItem from="1505365340508" duration="9311000" />
+      <workItem from="1505365340508" duration="9334000" />
+      <workItem from="1505439770281" duration="4575000" />
+      <workItem from="1506326509886" duration="7594000" />
     </task>
     <task id="LOCAL-00001" summary="atomic">
       <created>1500987081754</created>
@@ -941,11 +930,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501159100057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="atomic">
+      <created>1505389771218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505389771218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204367000" />
+    <option name="totallyTimeSpent" value="216559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -1003,20 +999,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/lockPractice/LockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/practice/Volatile/VolatileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1391,13 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <marker date="1505196720000" expanded="true" signature="85:134" ph="/**...*/" />
-            <marker date="1505196720000" expanded="true" signature="211:1531" ph="{...}" />
-            <marker date="1505196720000" expanded="true" signature="344:670" ph="{...}" />
-            <marker date="1505196720000" expanded="true" signature="706:1031" ph="{...}" />
-            <marker date="1505196720000" expanded="true" signature="1067:1393" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1446,11 +1421,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/InsertionSortList147.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="314">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
+            <marker date="1505389621000" expanded="true" signature="81:132" ph="/**...*/" />
+            <marker date="1505389621000" expanded="true" signature="196:301" ph="{...}" />
+            <marker date="1505389621000" expanded="false" signature="262:277" ph=" { " />
+            <marker date="1505389621000" expanded="false" signature="285:295" ph=" }" />
+            <marker date="1505389621000" expanded="true" signature="356:1382" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/SortList148.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1506337073000" expanded="true" signature="81:162" ph="/**...*/" />
+            <marker date="1506337073000" expanded="true" signature="217:322" ph="{...}" />
+            <marker date="1506337073000" expanded="false" signature="283:298" ph=" { " />
+            <marker date="1506337073000" expanded="false" signature="306:316" ph=" }" />
+            <marker date="1506337073000" expanded="true" signature="368:850" ph="{...}" />
+            <marker date="1506337073000" expanded="true" signature="905:1379" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/ReverseLinkedList206.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1506341718000" expanded="false" signature="333:348" ph=" { " />
+            <marker date="1506341718000" expanded="false" signature="356:366" ph=" }" />
           </folding>
         </state>
       </provider>
