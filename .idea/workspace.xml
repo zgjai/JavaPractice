@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed4a03dd-16dd-4a17-9a6a-0a2fd60e0d2a" name="Default" comment="reverse linked list">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Stack/ImplementQueueUsingStacks232.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Stack/ImplementStackUsingQueues225.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LintCode/ConsistentHashing.java" afterPath="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/ConsistentHashing.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LintCode/ConsistentHashingII.java" afterPath="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/ConsistentHashingII.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LintCode/InvertedIndex.java" afterPath="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/InvertedIndex.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LintCode/LFUCache.java" afterPath="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/LFUCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LintCode/LRUCache.java" afterPath="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/LRUCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LintCode/MemCache.java" afterPath="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/MemCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LintCode/MiniCassandra.java" afterPath="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/MiniCassandra.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LintCode/MiniTwitter.java" afterPath="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/MiniTwitter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LintCode/TrieService.java" afterPath="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/TrieService.java" />
+    <list default="true" id="ed4a03dd-16dd-4a17-9a6a-0a2fd60e0d2a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,22 +16,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImplementQueueUsingStacks232.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Stack/ImplementQueueUsingStacks232.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1993#1994#0" expanded="true" />
-                <element signature="e#2031#2032#0" expanded="true" />
-                <element signature="e#2472#2473#0" expanded="true" />
-                <element signature="e#2518#2519#0" expanded="true" />
-                <element signature="e#2554#2555#0" expanded="true" />
-                <element signature="e#2594#2595#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/PartitionList86.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/ReorderList143.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/Palindrome234.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/OddEvenList.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/LinkedListCycle.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/CopyListWithRandomPointer138.java" />
@@ -132,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LintCode/SystemDesign/ConsistentHashing.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/Stack/ImplementStackUsingQueues225.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/Stack/ImplementQueueUsingStacks232.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1052,7 +1032,7 @@
       <workItem from="1506650633615" duration="8504000" />
       <workItem from="1506734023824" duration="7898000" />
       <workItem from="1506934045424" duration="4101000" />
-      <workItem from="1507447904655" duration="9514000" />
+      <workItem from="1507447904655" duration="9618000" />
     </task>
     <task id="LOCAL-00001" summary="atomic">
       <created>1500987081754</created>
@@ -1110,15 +1090,21 @@
       <option name="project" value="LOCAL" />
       <updated>1506934613629</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="stack">
+      <created>1507553352470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1507553352470</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281172000" />
+    <option name="totallyTimeSpent" value="281276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1134,7 +1120,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42312747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.316474" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.316474" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1161,7 +1147,8 @@
     <MESSAGE value="atomic" />
     <MESSAGE value="linked list" />
     <MESSAGE value="reverse linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse linked list" />
+    <MESSAGE value="stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1374,13 +1361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1846,19 +1826,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Stack/ImplementQueueUsingStacks232.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        <state relative-caret-position="340">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2031#2032#0" expanded="true" />
-            <element signature="e#2472#2473#0" expanded="true" />
-            <element signature="e#2518#2519#0" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#2594#2595#0" expanded="true" />
+            <marker date="1507552961000" expanded="true" signature="83:126" ph="..." />
+            <marker date="1507552961000" expanded="true" signature="128:866" ph="/**...*/" />
+            <marker date="1507552961000" expanded="true" signature="1026:1099" ph="{...}" />
+            <marker date="1507552961000" expanded="true" signature="1105:1148" ph="/**...*/" />
+            <marker date="1507552961000" expanded="true" signature="1176:1186" ph=" { " />
+            <marker date="1507552961000" expanded="true" signature="1200:1206" ph=" }" />
+            <marker date="1507552961000" expanded="true" signature="1212:1287" ph="/**...*/" />
+            <marker date="1507552961000" expanded="true" signature="1309:1620" ph="{...}" />
+            <marker date="1507552961000" expanded="true" signature="1626:1655" ph="/**...*/" />
+            <marker date="1507552961000" expanded="true" signature="1678:1917" ph="{...}" />
+            <marker date="1507552961000" expanded="true" signature="1923:1965" ph="/**...*/" />
+            <marker date="1507552961000" expanded="true" signature="1992:2003" ph=" { " />
+            <marker date="1507552961000" expanded="true" signature="2026:2032" ph=" }" />
+            <marker date="1507552961000" expanded="true" signature="2061:2601" ph="{...}" />
+            <marker date="1507552961000" expanded="true" signature="2144:2217" ph="{...}" />
+            <marker date="1507552961000" expanded="true" signature="2255:2318" ph="{...}" />
+            <marker date="1507552961000" expanded="true" signature="2343:2447" ph="{...}" />
+            <marker date="1507552961000" expanded="true" signature="2471:2486" ph=" { " />
+            <marker date="1507552961000" expanded="true" signature="2509:2519" ph=" }" />
+            <marker date="1507552961000" expanded="true" signature="2553:2568" ph=" { " />
+            <marker date="1507552961000" expanded="true" signature="2585:2595" ph=" }" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
