@@ -1,4 +1,4 @@
-package LintCode;
+package LintCode.SystemDesign;
 
 /**
  * Created by zhangguijiang on 2017/3/18.

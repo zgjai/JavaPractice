@@ -1,10 +1,8 @@
-package LintCode;
+package LintCode.SystemDesign;
 
 /**
  * Created by zhangguijiang on 2017/3/21.
  */
-
-import javafx.collections.transformation.SortedList;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package LintCode;
+package LintCode.SystemDesign;
 
 /**
  * Created by zhangguijiang on 2017/3/24.
@@ -9,7 +9,6 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.TreeSet;
 
 /**
