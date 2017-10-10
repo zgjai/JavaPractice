@@ -81,6 +81,9 @@ public class ImplementQueueUsingStacks232 {
         }
 
         public T pop() {
+            if (isEmpty()) {
+                return null;
+            }
             T element = list.remove(index);
             index--;
             return element;
