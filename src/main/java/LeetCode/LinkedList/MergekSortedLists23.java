@@ -12,6 +12,11 @@ import java.util.List;
 /**
  * Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
  */
+
+/**
+ * 解题思路：
+ * 两两合并，类似于归并的方式
+ */
 public class MergekSortedLists23 {
     public class ListNode {
         int val;

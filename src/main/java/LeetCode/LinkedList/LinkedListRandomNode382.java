@@ -21,6 +21,11 @@ import java.util.Random;
  * // getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.
  * solution.getRandom();
  */
+
+/**
+ * 解题思路：
+ * 池塘采样算法
+ */
 public class LinkedListRandomNode382 {
     public class ListNode {
         int val;

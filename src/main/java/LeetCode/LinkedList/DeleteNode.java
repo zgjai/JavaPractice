@@ -10,6 +10,13 @@ package LeetCode.LinkedList;
  * Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node with value 3, the linked list should
  * become 1 -> 2 -> 4 after calling your function.
  */
+
+/**
+ * 解题思路：
+ * 这道题有种投机取巧的感觉，一般来说，我们认为删除一个节点就是把这个节点从链表中整个移除，但实际上一个节点的值域就可以代表这个节点了。
+ * 所以这道题采用了替换值域的方式实现'节点'的'删除'
+ */
+
 public class DeleteNode {
 
     public class ListNode {

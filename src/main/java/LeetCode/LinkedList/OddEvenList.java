@@ -15,6 +15,12 @@ package LeetCode.LinkedList;
  * Note: The relative order inside both the even and odd groups should remain as it was in the input. The first node is
  * considered odd, the second node even and so on ...
  */
+
+/**
+ * 解题思路：
+ * 采用两个指针，分别作为奇偶链表的哨兵节点，在遍历原始链表的过程中，交替扩展奇偶链表
+ */
+
 public class OddEvenList {
     public class ListNode {
         int val;

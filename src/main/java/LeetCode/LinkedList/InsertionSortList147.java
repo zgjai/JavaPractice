@@ -7,6 +7,11 @@ package LeetCode.LinkedList;
 /**
  * Sort a linked list using insertion sort.
  */
+
+/**
+ * 解题思路：
+ * 插入排序
+ */
 public class InsertionSortList147 {
 
     public class ListNode {

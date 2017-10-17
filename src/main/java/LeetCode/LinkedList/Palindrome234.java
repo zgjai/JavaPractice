@@ -9,6 +9,11 @@ package LeetCode.LinkedList;
  * 
  * Follow up: Could you do it in O(n) time and O(1) space?
  */
+
+/**
+ * 解题思路：
+ * 将整个链表从中间拆分为两个链表，并将后半部分反置，比较新的两个链表
+ */
 public class Palindrome234 {
 
     public class ListNode {

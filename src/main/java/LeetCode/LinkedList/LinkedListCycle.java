@@ -11,6 +11,11 @@ import java.util.List;
  * 
  * Follow up: Can you solve it without using extra space?
  */
+
+/**
+ * 解题思路：
+ * 快慢指针法，如果两个指针有交汇，说明有环
+ */
 public class LinkedListCycle {
     public class ListNode {
         int val;

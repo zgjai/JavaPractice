@@ -12,6 +12,12 @@ package LeetCode.LinkedList;
  * 
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4) Output: 7 -> 0 -> 8
  */
+
+/**
+ * 解题思路：
+ * 整体比较简单，需要一个临时变量存储进位值
+ */
+
 public class AddTwoNumbers2 {
     public class ListNode {
         int val;

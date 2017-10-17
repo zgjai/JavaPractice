@@ -10,6 +10,11 @@ package LeetCode.LinkedList;
  * 
  * Return a deep copy of the list.
  */
+
+/**
+ * 解题思路：
+ * 在原始链表的基础上，添加每个节点的拷贝节点，比如 1->2 ,先构造成 1->1->2->2 的新链表，完成随机节点的拷贝后，再分割成两个链表
+ */
 public class CopyListWithRandomPointer138 {
     class RandomListNode {
         int label;
