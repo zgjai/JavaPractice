@@ -12,6 +12,11 @@ package LeetCode.LinkedList;
  * Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be
  * changed.
  */
+
+/**
+ * 解题思路：
+ * 本质就是对整个链表分段进行反置
+ */
 public class SwapNodes24 {
 
     public class ListNode {

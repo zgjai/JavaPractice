@@ -10,6 +10,11 @@ package LeetCode.LinkedList;
  * Example Given: 1 --> 2 --> 6 --> 3 --> 4 --> 5 --> 6, val = 6
  * Return: 1 --> 2 --> 3 --> 4 --> 5
  */
+
+/**
+ * 解题思路：
+ * 注意头节点可能会被删除
+ */
 public class RemoveElements203 {
 
     public class ListNode {

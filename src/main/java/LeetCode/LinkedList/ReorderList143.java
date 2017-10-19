@@ -11,6 +11,11 @@ package LeetCode.LinkedList;
  * 
  * For example, Given {1,2,3,4}, reorder it to {1,4,2,3}.
  */
+
+/**
+ * 解题思路：
+ * 将链表拆分成奇偶链表，将偶链表反置，最后合并两个链表
+ */
 public class ReorderList143 {
 
     public class ListNode {

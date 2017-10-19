@@ -14,6 +14,11 @@ package LeetCode.LinkedList;
  * 
  * Note: Given n will always be valid. Try to do this in one pass.
  */
+
+/**
+ * 解题思路：
+ * 快慢指针实现，保证当快指针到达链表尾时，慢指针的后继节点是待删除节点
+ */
 public class RemoveNthNode19 {
 
     public class ListNode {

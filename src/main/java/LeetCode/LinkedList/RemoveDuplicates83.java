@@ -11,6 +11,11 @@ package LeetCode.LinkedList;
  * Given 1->1->2, return 1->2.
  * Given 1->1->2->3->3, return 1->2->3.
  */
+
+/**
+ * 解题思路：
+ * 采用双指针
+ */
 public class RemoveDuplicates83 {
 
     public class ListNode {
