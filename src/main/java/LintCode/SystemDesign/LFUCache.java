@@ -1,6 +1,10 @@
 package LintCode.SystemDesign;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -8,52 +12,116 @@ import java.util.Map;
  */
 public class LFUCache {
 
-    private int capacity;
-    private Map<Integer, Integer> kvMap;
-    private Map<Integer, Integer> countMap;
+    /**
+     * LFU (Least Frequently Used) is a famous cache eviction algorithm.
+     * 
+     * For a cache with capacity k, if the cache is full and need to evict a key in it, the key with the lease
+     * frequently used will be kicked out.
+     * 
+     * Implement set and get method for LFU cache.
+     */
 
-    // @param capacity, an integer
+    private Map<Integer, CacheNode> cache;
+    private List<LinkedHashSet<CacheNode>> frequencyList;
+    private int maxFrequency;
+    private int lowestFrequency;
+    private final int cacheSize;
+
     public LFUCache(int capacity) {
-        // Write your code here
-        this.capacity = capacity;
-        this.kvMap = new HashMap<Integer, Integer>();
-        this.countMap = new HashMap<Integer, Integer>();
+        this.cacheSize = capacity;
+        this.lowestFrequency = 0;
+        this.maxFrequency = capacity * 2;
+        this.frequencyList = new ArrayList<>(maxFrequency + 1);
+        cache = new HashMap<>();
+        initFrequencyList();
     }
 
-    // @param key, an integer
-    // @param value, an integer
-    // @return nothing
+    private void initFrequencyList() {
+        for (int i = 0; i <= maxFrequency; i++) {
+            frequencyList.add(i, new LinkedHashSet<>());
+        }
+    }
+
     public void set(int key, int value) {
-        // Write your code here
-        if (kvMap.size() >= capacity && !kvMap.keySet().contains(key)) {
-            int min = Integer.MAX_VALUE;
-            int oldK = 0;
-            for (Map.Entry<Integer, Integer> item : countMap.entrySet()) {
-                if (item.getValue() < min) {
-                    min = item.getValue();
-                    oldK = item.getKey();
-                }
+        CacheNode node = cache.get(key);
+        if (node == null) {
+            node = new CacheNode(key, value, 0);
+            if (cache.size() >= cacheSize) {
+                doEviction();
             }
-            kvMap.remove(oldK);
-            countMap.remove(oldK);
+            cache.put(key, node);
+            lowestFrequency = 0;
+        } else {
+            node.v = value;
         }
-        Integer count = countMap.get(key);
-        if (count == null) {
-            count = 0;
-        }
-        count++;
-        countMap.put(key, count);
-        kvMap.put(key, value);
+        addFrequency(node);
     }
 
     public int get(int key) {
-        // Write your code here
-        Integer count = countMap.get(key);
-        if (count == null) {
+        CacheNode node = cache.get(key);
+        if (node == null) {
             return -1;
         }
-        count++;
-        countMap.put(key, count);
-        return kvMap.get(key);
+        addFrequency(node);
+        return node.v;
+    }
+
+    private void addFrequency(CacheNode curNode) {
+        int curFrequency = curNode.frequency;
+        if (curFrequency < maxFrequency) {
+            int nextFrequency = curFrequency + 1;
+            LinkedHashSet<CacheNode> curNodes = frequencyList.get(curFrequency);
+            LinkedHashSet<CacheNode> nextNodes = frequencyList.get(nextFrequency);
+            moveToNextFrequency(curNodes, nextNodes, nextFrequency, curNode);
+            cache.put(curNode.k, curNode);
+            if (curFrequency == lowestFrequency && curNodes.isEmpty()) {
+                lowestFrequency = nextFrequency;
+            }
+        } else {
+            LinkedHashSet<CacheNode> nodes = frequencyList.get(curFrequency);
+            nodes.remove(curNode);
+            nodes.add(curNode);
+        }
+    }
+
+    private void moveToNextFrequency(LinkedHashSet<CacheNode> curNodes, LinkedHashSet<CacheNode> nextNodes,
+            int nextFrequency, CacheNode curNode) {
+        curNodes.remove(curNode);
+        nextNodes.add(curNode);
+        curNode.frequency = nextFrequency;
+    }
+
+    private void doEviction() {
+        LinkedHashSet<CacheNode> lowestNodes = frequencyList.get(lowestFrequency);
+        if (lowestNodes.isEmpty()) {
+            return;
+        }
+        Iterator<CacheNode> it = lowestNodes.iterator();
+        if (it.hasNext()) {
+            cache.remove(it.next().k);
+            it.remove();
+        }
+        findNextLowestNodes();
+    }
+
+    private void findNextLowestNodes() {
+        while (lowestFrequency <= maxFrequency && frequencyList.get(lowestFrequency).isEmpty()) {
+            lowestFrequency++;
+        }
+        if (lowestFrequency > maxFrequency) {
+            lowestFrequency = 0;
+        }
+    }
+
+    private class CacheNode {
+        final int k;
+        int v;
+        int frequency;
+
+        CacheNode(int k, int v, int frequency) {
+            this.k = k;
+            this.v = v;
+            this.frequency = frequency;
+        }
     }
 }
