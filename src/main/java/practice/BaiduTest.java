@@ -46,7 +46,7 @@ public class BaiduTest {
         byte[] byteArray = output.toByteArray();
 
         HttpClient httpClient = HttpClients.createDefault();
-        HttpPost post = new HttpPost("http://adquerybackup.qunar.com/dsp/baidu_rtb");
+        HttpPost post = new HttpPost("");
         post.setEntity(new ByteArrayEntity(byteArray));
         post.addHeader(new BasicHeader("Content-Type", "application/octet-stream"));
         HttpResponse response = httpClient.execute(post);
