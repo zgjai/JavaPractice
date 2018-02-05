@@ -1,4 +1,4 @@
-package LintCode.SystemDesign;
+package LintCode.SystemDesign.ConsistentHashing_TinyUrl;
 
 /**
  * Created by zhangguijiang on 2017/3/21.

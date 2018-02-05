@@ -1,4 +1,4 @@
-package LintCode.SystemDesign;
+package LintCode.SystemDesign.DFS;
 
 import java.util.ArrayList;
 import java.util.List;

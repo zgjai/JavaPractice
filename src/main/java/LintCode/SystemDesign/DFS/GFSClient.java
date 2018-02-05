@@ -1,4 +1,4 @@
-package LintCode.SystemDesign;
+package LintCode.SystemDesign.DFS;
 
 import java.util.HashMap;
 import java.util.Map;

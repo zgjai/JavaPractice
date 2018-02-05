@@ -1,4 +1,4 @@
-package LintCode.SystemDesign;
+package LintCode.SystemDesign.ConsistentHashing_TinyUrl;
 
 import java.util.HashMap;
 import java.util.Map;

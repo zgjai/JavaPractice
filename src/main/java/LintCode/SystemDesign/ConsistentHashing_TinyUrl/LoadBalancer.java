@@ -1,4 +1,4 @@
-package LintCode.SystemDesign;
+package LintCode.SystemDesign.ConsistentHashing_TinyUrl;
 
 import java.util.ArrayList;
 import java.util.List;

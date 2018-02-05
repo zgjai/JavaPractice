@@ -1,4 +1,4 @@
-package LintCode.SystemDesign;
+package LintCode.SystemDesign.DB_UserSystem;
 
 import java.util.ArrayList;
 import java.util.HashMap;

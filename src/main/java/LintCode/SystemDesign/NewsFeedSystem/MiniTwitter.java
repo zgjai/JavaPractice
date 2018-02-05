@@ -1,4 +1,4 @@
-package LintCode.SystemDesign;
+package LintCode.SystemDesign.NewsFeedSystem;
 
 import java.util.ArrayList;
 import java.util.Collections;

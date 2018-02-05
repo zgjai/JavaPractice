@@ -1,4 +1,4 @@
-package LintCode.SystemDesign;
+package LintCode.SystemDesign.DB_UserSystem;
 
 /**
  * Created by zhangguijiang on 2017/3/18.

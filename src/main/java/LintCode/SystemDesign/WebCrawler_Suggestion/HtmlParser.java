@@ -1,4 +1,4 @@
-package LintCode.SystemDesign;
+package LintCode.SystemDesign.WebCrawler_Suggestion;
 
 import java.util.ArrayList;
 import java.util.List;
