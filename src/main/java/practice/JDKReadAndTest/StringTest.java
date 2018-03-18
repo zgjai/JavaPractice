@@ -5,6 +5,6 @@ package practice.JDKReadAndTest;
  */
 public class StringTest {
     public static void main(String[] args){
-        String test = "test";
+        String test = new String("test");
     }
 }

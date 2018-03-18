@@ -29,7 +29,7 @@
         <logback.version>1.1.7</logback.version>
         <h2.version>1.4.192</h2.version>
         <jol.version>0.5</jol.version>
-        <guava.version>17.0</guava.version>
+        <guava.version>24.0-jre</guava.version>
         <kafka.version>0.8.2.1</kafka.version>
         <scala.version>2.11.5</scala.version>
         <zk.version>0.3</zk.version>
@@ -38,6 +38,7 @@
         <alibaba.version>1.2.41</alibaba.version>
         <tomcat.version>8.5.24</tomcat.version>
         <javax-cache.version>1.0.0</javax-cache.version>
+        <jedis.version>2.9.0</jedis.version>
     </properties>
 
     <dependencyManagement>
@@ -176,6 +177,14 @@
                 <version>${javax-cache.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
+                <type>jar</type>
+                <scope>compile</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -183,7 +192,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
 
@@ -301,6 +310,11 @@
         <dependency>
             <groupId>javax.cache</groupId>
             <artifactId>cache-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
         </dependency>
 
     </dependencies>
