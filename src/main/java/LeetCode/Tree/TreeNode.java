@@ -3,7 +3,6 @@ package LeetCode.Tree;
 import java.util.function.Function;
 
 import LeetCode.Stack.MyStack;
-import practice.QueueTest;
 
 /**
  * Created by zhangguijiang on 2018/3/2.
@@ -115,7 +114,6 @@ class TreeNode {
     // 广度优先遍历(BFS)，即层次遍历
     // 非递归
     public static void breadFirstIteration(TreeNode root, Function<TreeNode, Void> function) {
-        QueueTest.Queue
     }
 
     // 递归
