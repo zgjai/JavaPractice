@@ -1,4 +1,4 @@
-package RpcFramework.Consumer;
+package rpc.RpcFramework.Consumer;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;

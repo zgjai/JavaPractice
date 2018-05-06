@@ -1,4 +1,4 @@
-package RpcFramework.Producer;
+package rpc.RpcFramework.Producer;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

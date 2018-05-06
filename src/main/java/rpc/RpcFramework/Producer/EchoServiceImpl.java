@@ -1,4 +1,4 @@
-package RpcFramework.Producer;
+package rpc.RpcFramework.Producer;
 
 /**
  * Created by zhangguijiang on 2018/3/28.
